@@ -1,0 +1,16 @@
+table {
+    width: 100%; /* Memastikan tabel menyesuaikan ukuran container */
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+  }
+  
+  th, td {
+    padding: 8px; /* Memberi jarak dalam sel */
+    text-align: left; /* Rata kiri teks di sel */
+    border: 1px solid #ddd; /* Tambahkan border */
+  }
+  
+  .container {
+    max-width: 100%; /* Pastikan container tidak terlalu kecil */
+    overflow-x: auto; /* Menambahkan scroll horizontal jika tabel terlalu besar */
+  }
+  
